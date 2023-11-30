@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+._Navbar {
+  padding: 25px;
+  background-color: #2c3e50;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+._Navbar .links {
+  color: white;
+  font-family: sans-serif;
+  margin: 5px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.links:hover {
+  color: lightgray;
+}
+
+._Header {
+  background-color: #314558;
+  padding: 150px;
+  text-align: center;
+}
+
+._Header h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
 }
