@@ -18,6 +18,9 @@ export default function Home() {
       <div className="_hero-img">
         <h3>Community Developer</h3>
       </div>
+      <div className="footer">
+        <p>Copyright &copy; 2023 International Techtack-Technologies</p>
+      </div>
     </div>
   );
 }
