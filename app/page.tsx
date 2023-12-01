@@ -13,6 +13,10 @@ export default function Home() {
       </div>
       <div className="_Header">
         <h1>International Techtack-Technologies</h1>
+        <p>Technologies For Everyone.</p>
+      </div>
+      <div className="_hero-img">
+        <h3>Community Developer</h3>
       </div>
     </div>
   );
