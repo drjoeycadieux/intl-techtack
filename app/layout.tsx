@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "International Techtack-Technologies",
-  description: "Most advanced platform from developers.",
+  description: "Most advanced platform from developers",
 };
 
 export default function RootLayout({
